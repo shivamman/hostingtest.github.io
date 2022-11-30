@@ -1,0 +1,72 @@
+html {
+    /* background-color: aqua; */
+}
+
+.divContainer {
+    width: 100%;
+    border: 1px solid;
+    height: 200px;
+    display: flex;
+    position: relative;
+    /* justify-content: space-between !important;
+    align-items: center; */
+    
+}
+
+/* .divContainer b {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+} */
+
+.child-container {
+    height: 100;
+    border: 1px solid;
+    height: 200px;
+    width: 100%;
+    /* margin: 10px; */
+    /* top: 10; */
+    left: 30%;
+    right: 30%;
+    bottom: 10;
+    position: absolute;
+}
+.burlywood div {
+    background-color: red;
+}
+
+.burlywood h3,
+p {
+    background-color: blueviolet !important;
+    color: whitesmoke;
+    font-family: courier;
+    font-size: 160%;
+}
+
+a {
+    color: red;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.badge {
+    background-color: blue;
+    /* border: 2px solid white; */
+    border-radius: 12px; 
+    /* one half of ( (border * 2) + height + padding ) */
+    height: 22px; 
+    min-width: 22px;
+    padding: 4px 4px 0 4px;
+    text-align: center;
+}
